@@ -9,7 +9,7 @@ public class ArrayExample {
         Integer[] arr = new Integer[100];
         System.out.println("Danh sách phần tử của mảng: ");
         for (int i=0; i<100; i++){
-            arr[i] = rd.nextInt();
+            arr[i] = rd.nextInt(100);
             System.out.print(arr[i]+ " ");
         }
         return arr;
